@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Wolverine Linux
+Comment=Configure Razer Wolverine V3 Pro for Xbox
+Exec=wolverine-gui
+Icon=de.pascalfilippi.WolverineLinux
+Type=Application
+Categories=Game;Utility;Settings;
+Keywords=razer;wolverine;gamepad;controller;rgb;
