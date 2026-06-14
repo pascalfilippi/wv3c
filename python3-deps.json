@@ -12,8 +12,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/95/cb/116f9b328636765f3bce97d9e10ec041c54bbe92beb0617edb86c2b615c1/pyqt6_sip-13.11.1-cp312-cp312-manylinux1_x86_64.manylinux_2_5_x86_64.whl",
-            "sha256": "0df15849946cea969d3ff2b24b76149262b6044aea2c5403e4f70c24c973a4c8"
+            "url": "https://files.pythonhosted.org/packages/d4/e3/65b605759859d38231ce7544065d4c61f891eb7766c351318e2a0b08a473/pyqt6_sip-13.11.1-cp313-cp313-manylinux1_x86_64.manylinux_2_5_x86_64.whl",
+            "sha256": "a72f4ebdab16a8a484019ff593de90d8013d3286b678c6ba1c0bdb117f4fcb13"
         },
         {
             "type": "file",
