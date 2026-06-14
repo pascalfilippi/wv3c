@@ -101,7 +101,3 @@ A PyQt6 GUI is in early development (`wolverine gui`).
 The controller uses the standard Razer 90-byte Feature Report format over HID interface 1. Full documentation is in [`docs/protocol.md`](docs/protocol.md).
 
 **Warning**: Never send command class `0x00` / ID `0x04` with mode byte `0x03` — this puts the controller into bootloader mode (VID:PID `1532:110e`) and requires a physical replug to recover.
-
-## License
-
-GPL-3.0-or-later

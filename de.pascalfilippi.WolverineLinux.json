@@ -1,5 +1,5 @@
 {
-    "app-id": "de.filippi_software.WolverineLinux",
+    "app-id": "de.pascalfilippi.WolverineLinux",
     "runtime": "org.gnome.Platform",
     "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
