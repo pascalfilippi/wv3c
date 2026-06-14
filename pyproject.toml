@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wolverine-linux"
+version = "0.1.0"
+description = "Linux userspace driver for Razer Wolverine V3 Pro advanced features"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+dependencies = [
+    "click>=8.0",
+    "PyQt6>=6.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+wolverine = "cli.main:cli"
+wolverine-gui = "cli.main:gui_main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "cli*"]

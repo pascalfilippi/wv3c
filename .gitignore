@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Flatpak build artefacts
+python3-deps.json
+*.flatpak
+.flatpak-builder/
+
+# Claude Code local data
+.claude/
+CLAUDE.md

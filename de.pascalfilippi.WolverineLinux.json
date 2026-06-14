@@ -1,0 +1,29 @@
+{
+    "app-id": "de.filippi_software.WolverineLinux",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "48",
+    "sdk": "org.gnome.Sdk",
+    "command": "wolverine-gui",
+    "finish-args": [
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc",
+        "--device=all"
+    ],
+    "modules": [
+        "python3-deps.json",
+        {
+            "name": "wolverine-linux",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --no-build-isolation --no-deps --prefix=/app ."
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "."
+                }
+            ]
+        }
+    ]
+}
